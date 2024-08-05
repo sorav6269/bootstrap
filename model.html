@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css link-->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>model</title>
+</head>
+
+<body>
+    <button class="btn btn-primary" data-bs-target="#aa" data-bs-toggle="modal">
+        Login
+    </button>
+    <div class="modal fade" id="aa">
+        <div class="modal-dialog modal-lg"> <!--model xl,sm,lg-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-tittle"> Login Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div><!--modal-header end-->
+                <div class="modal-body">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="">
+                                Email
+                            </label>
+                            <input type="email" placeholder="Email" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="">
+                                Password
+                            </label>
+                            <input type="password" placeholder="Password" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-info">Login</button>
+                        </div>
+                    </form>
+                </div><!--modal-body end-->
+            </div><!--modal content end-->
+        </div><!--modal-dialog end-->
+    </div><!--modal end-->
+</body>
+
+</html>
